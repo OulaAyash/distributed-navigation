@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   font-family: sans-serif;
   line-height: 1.5;
+  background: #fff;
 }
 
 *, *::before, *::after {
@@ -26,7 +27,7 @@ header {
 }
 
 header h1{
-
+  position: absolute;
 }
 
 header p {
@@ -43,5 +44,3 @@ nav ul {
 nav a {
   color: #0074d9;
 }
-
-a:hover
