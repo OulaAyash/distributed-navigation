@@ -13,6 +13,11 @@ img {
   width: 2rem;
 }
 
+body {
+  margin: .5rem;
+}
+
+
 header {
   display: flex;
   background-color: #e2e2e2;
@@ -21,8 +26,12 @@ header {
   justify-content: space-between;
 }
 
-ul {
+nav ul {
   list-style-type: none;
   display: flex;
   padding: 1rem;
+}
+
+nav a {
+  color: #0074d9;
 }
