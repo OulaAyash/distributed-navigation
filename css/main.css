@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: flex;
+  width: 2rem;
+}
+
+header {
+  display: flex;
+  background-color: #e2e2e2;
+  padding: .75em 1em .6em;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  padding: 1rem;
+}
