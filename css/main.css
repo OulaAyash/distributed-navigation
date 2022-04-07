@@ -12,6 +12,9 @@ html {
 header img {
   display: flex;
   width: 2rem;
+  align-self: flex-start;
+  align-content: space-between;
+  align-items: flex-start;
 }
 
 body {
@@ -24,6 +27,7 @@ header {
   padding: 0;
   flex-direction: row;
   justify-content: space-between;
+  margin: auto;
 }
 
 header h1 {
@@ -45,4 +49,8 @@ nav a {
   color: #0074d9;
   margin: .5rem;
   text-decoration: none;
+}
+
+a:hover {
+  background-color: #fff;
 }
