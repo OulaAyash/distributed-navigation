@@ -21,12 +21,12 @@ body {
 header {
   display: flex;
   background-color: #e2e2e2;
-  padding: .75em 1em .6em;
+  padding: 0;
   flex-direction: row;
   justify-content: space-between;
 }
 
-header h1{
+header h1 {
   position: absolute;
 }
 
@@ -43,4 +43,6 @@ nav ul {
 
 nav a {
   color: #0074d9;
+  margin: .5rem;
+  text-decoration: none;
 }
